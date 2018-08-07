@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ETankstellenFinder</title>
+	<link media="all" rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200italic,200,300,300italic,400italic,600,600italic,700italic,700,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper" class="detailseite-news">
+		<div class="container">
+			<header id="header">
+				<div class="logo">
+					<a href="#">
+						<img src="images/logo.png" alt="e-tankstellen-finder">
+					</a>
+				</div>
+				<a href="#" class="opener"><span></span></a>
+				<nav class="navbar">
+					<ul id="main-menu">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Services</a>
+						</li>
+						<li>
+							<a href="#">Info</a>
+						</li>
+						<li class="drop">
+							<a href="#">
+								<i class="icon-play"></i>
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="link">Neue E-Tankstelle eintragen</a>
+				</nav>
+			</header>
+			<main id="main" role="main">
+				<section class="main-form">
+					<form action="#">
+						<fieldset>
+							<div class="form-holder">
+								<div class="checkbox-holder">
+									<div class="checkbox-box">
+										<label for="stecker">
+											Stecker
+										</label>
+										<input type="checkbox" id="stecker">
+									</div>
+									<div class="checkbox-box">
+										<label for="typ-2">
+											Typ 2
+										</label>
+										<input type="checkbox" id="typ-2">
+									</div>
+									<div class="checkbox-box">
+										<label for="cee-7">
+											CEE 7 +
+										</label>
+										<input type="checkbox" id="cee-7">
+									</div>
+									<div class="checkbox-box">
+										<label for="typ-22">
+											Typ 2
+										</label>
+										<input type="checkbox" id="typ-22">
+									</div>
+								</div>
+								<div class="box">
+									<div class="search">
+										<input type="search" placeholder="Suchen">
+										<button type="submit" class="btn"><i class="icon-search"></i>Suchen</button>
+									</div>
+									<span class="separator">oder</span>
+									<button type="button" class="btn"><img src="images/img-1.png" alt="image description" />Route planen</button>
+								</div>
+							</div>
+							<div class="open-close">
+								<a class="open" href="#">Mehr Suchkriterien</a>
+								<div class="slide">
+									<div class="select-holder">
+										<div class="select-box mark">
+											<label>Volt</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box mark">
+											<label>Ampere</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Öffnungszeiten</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Kosten</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Weitere Steckertypen</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Status</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+									</div>
+									<div>
+										<a href="#" class="title">Ladeleistung<i class="icon-info"></i></a>
+									</div>
+									<div class="mark-holder">
+										<div class="checkbox-box">
+											<label for="green">
+												<img src="images/img-mark-green.png" alt="image description" />
+												XYZ bis YXZ
+											</label>
+											<input type="checkbox" id="green">
+										</div>
+										<div class="checkbox-box">
+											<label for="orange">
+												<img src="images/img-mark-orange.png" alt="image description" />
+												XYZ bis YXZ
+											</label>
+											<input type="checkbox" id="orange">
+										</div>
+										<div class="checkbox-box">
+											<label for="red">
+												<img src="images/img-mark-red.png" alt="image description" />
+												XYZ bis YXZ
+											</label>
+											<input type="checkbox" id="red">
+										</div>
+									</div>
+									<div class="button-box">
+										<button type="button" class="btn"><i class="icon-floppy-o"></i>Suchkriterien speichern</button>
+										<button type="button" class="btn inverse"><i class="icon-undo2"></i>Suchkriterien zurücksetzen</button>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</section>
+				<section class="content-block post-block">
+					<h1>News aus dem Bereich Elektromobilität</h1>
+					<div class="img-box">
+						<img src="images/img-11.jpg" alt="image description" />
+					</div>
+					<article class="post">
+						<time datetime="2015-05-17">17.05.2015</time>
+						<h2><a href="#">Elektroautos: Warum die Elektromobilität nicht in Fahrt kommt!</a></h2>
+						<div class="text-box">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id iure debitis sit saepe veniam nihil, reprehenderit natus ipsa eligendi ullam provident dolore illum nemo consequuntur maiores optio repudiandae incidunt doloribus suscipit, eum quod facere aperiam aspernatur aliquam molestiae. Vel excepturi aspernatur ipsam magni. Dolorem porro, eum explicabo officia, minima velit, suscipit voluptates obcaecati tempore architecto esse! Pariatur facere qui quia iure magni vitae animi explicabo, blanditiis laboriosam veniam, incidunt eaque dolore et expedita odio tempore, est quae quas molestias non! Quod error ad, at esse mollitia adipisci aperiam ut blanditiis nam porro ratione incidunt vel, beatae, accusamus ipsum magnam obcaecati.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa error aliquam aliquid deleniti laboriosam consectetur eaque animi laborum, maxime vero repudiandae, rerum porro atque tempora est! Reiciendis sint, quo quibusdam. Dolorem debitis, adipisci. Laudantium quibusdam at eligendi. Nihil distinctio labore veritatis tempora. Enim vero molestiae ad, non aliquam similique iste laborum harum possimus. Possimus rerum enim, tempore esse praesentium non molestias debitis odit, iusto asperiores earum perferendis tenetur ipsam ut, nulla atque, quidem nesciunt dicta ullam voluptas. Voluptates officia, consequatur obcaecati laudantium odit voluptate in facilis maiores doloremque. Neque earum quisquam odio blanditiis suscipit incidunt enim eos id possimus tempora.</p>
+						</div>
+					</article>
+				</section>
+				<section class="content-block post-list">
+					<h1>Weitere News</h1>
+					<div class="list-holder">
+						<div class="list">
+							<article class="item">
+								<img src="images/img-4.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-17">17.05.2015</time>
+									<h3>
+										<a href="#">Elektroautos: Warum die Elektromobilität nicht in Fahr</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna lorem ipsum </p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-5.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-13">13.05.2015</time>
+									<h3>
+										<a href="#">Öko-Strom: Lorem ipsum dolar sit amet</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna lorem ipsum </p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-6.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-12">12.05.2015</time>
+									<h3>
+										<a href="#">Lorem Ipsum: lorem ipsum dolar sit amet. Lorem ipsum</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna lorem ipsum </p>
+								</div>
+							</article>
+						</div>
+						<div class="list">
+							<article class="item">
+								<img src="images/img-4.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-17">17.05.2015</time>
+									<h3>
+										<a href="#">Elektroautos: Warum die Elektromobilität nicht in Fahr</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna lorem ipsum </p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-5.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-13">13.05.2015</time>
+									<h3>
+										<a href="#">Öko-Strom: Lorem ipsum dolar sit amet</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna lorem ipsum </p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-6.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-12">12.05.2015</time>
+									<h3>
+										<a href="#">Lorem Ipsum: lorem ipsum dolar sit amet. Lorem ipsum</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna lorem ipsum </p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section class="content-block main-info">
+					<div class="info-list">
+						<section class="item box-list">
+							<div class="info-box">
+								<h2>Der ETF Blog</h2>
+								<img src="images/img-chat.png" alt="image description" />
+								<a href="#" class="btn">Mehr herausfinden</a>
+							</div>
+							<div class="info-box inverse">
+								<h2>Fragen &amp; Antworten</h2>
+								<img src="images/img-chat2.png" alt="image description" />
+								<a href="#" class="btn">Mehr herausfinden</a>
+							</div>
+						</section>
+						<section class="item location">
+							<h2>Tankstellen in der Nähe</h2>
+							<ul class="location-list jcf-scrollable">
+								<li class="location-item">
+									<img src="images/img-7.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tankstelle Mustermann</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											Musterstraße 64 a <br>
+											8010 Graz
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-8.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>JET </h3>
+										<span class="mark-red">belegt</span>
+										<address>
+											Musterstraße 64 a <br>
+											8010 Graz
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-7.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tank Roth</h3>
+										<span class="mark-grey">keine Info</span>
+										<address>
+											Musterstraße 64 a <br>
+											8010 Graz
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-8.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Shell</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											Musterstraße 64 a <br>
+											8010 Graz
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-7.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tankstelle Mustermann</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											Musterstraße 64 a <br>
+											8010 Graz
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item"> 
+									<img src="images/img-8.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tankstelle Mustermann</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											Musterstraße 64 a <br>
+											8010 Graz
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+							</ul>
+						</section>
+						<section class="item twitter">
+							<div class="intro">
+								<h2>Tweets</h2>
+								<a href="#" class="link">Folgen</a>
+							</div>
+							<ul class="tweet-list jcf-scrollable">
+								<li class="tweet-item">
+									<img src="images/img-9.jpg" alt="image description" />
+									<div class="text-box">
+										<div class="title">
+											<a href="#">chargr<span>@etf</span></a>
+											<time datetime="2015-03-24">24 Mär</time>
+										</div>
+										<div class="text">
+											<p>Busfahren aber in geil
+												<a href="#">goo.gl/t81NYD #leap</a>
+											</p>
+										</div>
+										<a href="#" class="link"><i class="icon-newspaper"></i>Kurzfassung zeigen</a>
+									</div>
+								</li>
+								<li class="tweet-item">
+									<img src="images/img-10.jpg" alt="image description" />
+									<div class="text-box">
+										<div class="title">
+											<a href="#">ElectricCar.co.uk<span>@etf</span></a>
+											<time datetime="2015-02-25">25 Feb</time>
+										</div>
+										<div class="text">
+											<p>Electric car charging station now in Dubai - The Nation
+												<a href="#">bit.ly/1BtyxMA</a>
+											</p>
+										</div>
+										<a href="#" class="link"><i class="icon-loop"></i>Retweetet von chargr</a>
+										<a href="#" class="link"><i class="icon-newspaper"></i>Kurzfassung zeigen</a>
+									</div>
+								</li>
+								<li class="tweet-item">
+									<img src="images/img-9.jpg" alt="image description" />
+									<div class="text-box">
+										<div class="title">
+											<a href="#">chargr<span>@etf</span></a>
+											<time datetime="2015-02-13">13 Feb</time>
+										</div>
+										<div class="text">
+											<p>Offenburg soll Modellssstadt fur ETF werden
+												<a href="#">goo.gl/qnJ33p</a>
+											</p>
+										</div>
+										<a href="#" class="link"><i class="icon-newspaper"></i>Kurzfassung zeigen</a>
+									</div>
+								</li>
+								<li class="tweet-item">
+									<img src="images/img-9.jpg" alt="image description" />
+									<div class="text-box">
+										<div class="title">
+											<a href="#">chargr<span>@etf</span></a>
+											<time datetime="2015-03-24">24 Mär</time>
+										</div>
+										<div class="text">
+											<p>Busfahren aber in geil
+												<a href="#">goo.gl/t81NYD #leap</a>
+											</p>
+										</div>
+										<a href="#" class="link"><i class="icon-newspaper"></i>Kurzfassung zeigen</a>
+									</div>
+								</li>
+								<li class="tweet-item">
+									<img src="images/img-10.jpg" alt="image description" />
+									<div class="text-box">
+										<div class="title">
+											<a href="#">ElectricCar.co.uk<span>@etf</span></a>
+											<time datetime="2015-02-25">25 Feb</time>
+										</div>
+										<div class="text">
+											<p>Electric car charging station now in Dubai - The Nation
+												<a href="#">bit.ly/1BtyxMA</a>
+											</p>
+										</div>
+										<a href="#" class="link"><i class="icon-loop"></i>Retweetet von chargr</a>
+										<a href="#" class="link"><i class="icon-newspaper"></i>Kurzfassung zeigen</a>
+									</div>
+								</li>
+								<li class="tweet-item">
+									<img src="images/img-9.jpg" alt="image description" />
+									<div class="text-box">
+										<div class="title">
+											<a href="#">chargr<span>@etf</span></a>
+											<time datetime="2015-02-13">13 Feb</time>
+										</div>
+										<div class="text">
+											<p>Offenburg soll Modellssstadt fur ETF werden
+												<a href="#">goo.gl/qnJ33p</a>
+											</p>
+										</div>
+										<a href="#" class="link"><i class="icon-newspaper"></i>Kurzfassung zeigen</a>
+									</div>
+								</li>
+							</ul>
+							<form action="#">
+								<fieldset>
+									<input type="search" placeholder="Tweet an @atf">
+								</fieldset>
+							</form>
+						</section>
+					</div>
+				</section>
+			</main>
+			<footer id="footer">
+				<nav class="footer-menu">
+					<ul>
+						<li>
+							<a href="#">Kontakt</a>
+						</li>
+						<li>
+							<a href="#">Impressum</a>
+						</li>
+						<li>
+							<a href="#">Info</a>
+						</li>
+						<li>
+							<a href="#">Datenschutzerklärung</a>
+						</li>
+						<li>
+							<a href="#">AGB</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#header" class="link"><i class="icon-play"></i>Nach Oben </a>
+			</footer>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/jquery.main.js"></script>
+</body>
+</html>

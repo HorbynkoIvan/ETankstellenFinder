@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ETankstellenFinder</title>
+	<link media="all" rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200italic,200,300,300italic,400italic,600,600italic,700italic,700,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper" class="detailseite">
+		<div class="container">
+			<header id="header">
+				<div class="logo">
+					<a href="#">
+						<img src="images/logo.png" alt="e-tankstellen-finder">
+					</a>
+				</div>
+				<a href="#" class="opener"><span></span></a>
+				<nav class="navbar">
+					<ul id="main-menu">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Services</a>
+						</li>
+						<li>
+							<a href="#">Info</a>
+						</li>
+						<li class="drop">
+							<a href="#">
+								<i class="icon-play"></i>
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="link">Neue E-Tankstelle eintragen</a>
+				</nav>
+			</header>
+			<main id="main" role="main">
+				<section class="main-form">
+					<form action="#">
+						<fieldset>
+							<div class="form-holder">
+								<div class="checkbox-holder">
+									<div class="checkbox-box">
+										<label for="stecker">
+											Stecker
+										</label>
+										<input type="checkbox" id="stecker">
+									</div>
+									<div class="checkbox-box">
+										<label for="typ-2">
+											Typ 2
+										</label>
+										<input type="checkbox" id="typ-2">
+									</div>
+									<div class="checkbox-box">
+										<label for="cee-7">
+											CEE 7 +
+										</label>
+										<input type="checkbox" id="cee-7">
+									</div>
+									<div class="checkbox-box">
+										<label for="typ-22">
+											Typ 2
+										</label>
+										<input type="checkbox" id="typ-22">
+									</div>
+								</div>
+								<div class="box">
+									<div class="search">
+										<input type="search" placeholder="Suchen">
+										<button type="submit" class="btn"><i class="icon-search"></i>Suchen</button>
+									</div>
+									<span class="separator">oder</span>
+									<button type="button" class="btn"><img src="images/img-1.png" alt="image description" />Route planen</button>
+								</div>
+							</div>
+							<div class="open-close">
+								<a class="open" href="#">Mehr Suchkriterien</a>
+								<div class="slide">
+									<div class="select-holder">
+										<div class="select-box mark">
+											<label>Volt</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box mark">
+											<label>Ampere</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Öffnungszeiten</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Kosten</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Weitere Steckertypen</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+										<div class="select-box">
+											<label>Status</label>
+											<select>
+												<option>Alle</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>7</option>
+												<option>8</option>
+												<option>11</option>
+												<option>12</option>
+												<option>13</option>
+												<option>14</option>
+												<option>15</option>
+												<option>16</option>
+												<option>17</option>
+												<option>18</option>
+												<option>19</option>
+												<option>20</option>
+												<option>21</option>
+												<option>22</option>
+												<option>23</option>
+												<option>24</option>
+											</select>
+										</div>
+									</div>
+									<div>
+										<a href="#" class="title">Ladeleistung<i class="icon-info"></i></a>
+									</div>
+									<div class="mark-holder">
+										<div class="checkbox-box">
+											<label for="green">
+												<img src="images/img-mark-green.png" alt="image description" />
+												XYZ bis YXZ
+											</label>
+											<input type="checkbox" id="green">
+										</div>
+										<div class="checkbox-box">
+											<label for="orange">
+												<img src="images/img-mark-orange.png" alt="image description" />
+												XYZ bis YXZ
+											</label>
+											<input type="checkbox" id="orange">
+										</div>
+										<div class="checkbox-box">
+											<label for="red">
+												<img src="images/img-mark-red.png" alt="image description" />
+												XYZ bis YXZ
+											</label>
+											<input type="checkbox" id="red">
+										</div>
+									</div>
+									<div class="button-box">
+										<button type="button" class="btn"><i class="icon-floppy-o"></i>Suchkriterien speichern</button>
+										<button type="button" class="btn inverse"><i class="icon-undo2"></i>Suchkriterien zurücksetzen</button>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</section>
+				<section class="map-holder">
+					<div class="map-box">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7686.137205156981!2d15.439663491111093!3d47.07044484843121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e3581eb9cdfaf%3A0xe24fe34050bd6bd1!2zSG9mZ2Fzc2UgMTYsIDgwMTAgR3Jheiwg0JDQstGB0YLRgNC40Y8!5e0!3m2!1sru!2sru!4v1453825420565" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="resize-box"><a href="#"><img src="images/img-3.jpg" alt="image description" /></a></div>
+					</div>
+					<div class="info-box">
+						<div class="inner">
+							<h2>Tankstellendetails</h2>
+							<div class="info">
+								<h3>Tankstelle Mustermann</h3>
+								<div class="box">
+									<ul class="rate-checked">
+										<li class="checked"></li>
+										<li class="checked"></li>
+										<li class="checked"></li>
+										<li></li>
+										<li></li>
+									</ul>
+									<span class="status">Status:<span class="mark-green">frei</span></span>
+								</div>
+								<address>
+									<span>Musterstraße 64 a</span>
+									<span>8010 Graz</span>
+								</address>
+								<div class="link-box">
+									<a href="tel:+43031612425">+43 (0) 316 / 12425</a>
+									<a href="www.tankstelle-mustermann.at">www.tankstelle-mustermann.at</a>
+								</div>
+							</div>
+							<ul class="list">
+								<li class="item">
+									<span class="title">Anzahl der Parkplätze:</span>
+									<span>1 Parkplatz für E-Autos</span>
+								</li>
+								<li class="item">
+									<span class="title">Authentifizierung:</span>
+									<span>Schlüssel</span>
+								</li>
+								<li class="item">
+									<ul>
+										<li>
+											<img src="images/img-typ2.svg" alt="image description" />
+											<span>Typ 2</span>
+											<a href="#" class="mark-green">(22.2kW) <i class="icon-info"></i></a>
+										</li>
+										<li>
+											<img src="images/img-typ22.svg" alt="image description" />
+											<span>Typ 2</span>
+											<a href="#" class="mark-green">(22.2kW) <i class="icon-info"></i></a>
+										</li>
+										<li>
+											<img src="images/img-cee.svg" alt="image description" />
+											<span>CEE 7 +</span>
+											<a href="#" class="mark-green">(22.2kW) <i class="icon-info"></i></a>
+										</li>
+									</ul>
+								</li>
+								<li class="item box-wrap">
+									<div class="box">
+										<span class="title">Öffnungszeiten:</span>
+										<span>jederzeit</span>
+									</div>
+									<div class="box">
+										<span class="title">Kosten:</span>
+										<span>nach Vereinbarung</span>
+									</div>
+								</li>
+							</ul>
+							<a href="#" class="btn"><img src="images/img-1.png" alt="image description" />Route zu dieser Tankstelle planen</a>
+						</div>
+					</div>
+				</section>
+				<section class="content-block carousel-holder">
+				<div class="carousel">
+						<div class="slide">
+							<img src="images/slide-1.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-2.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-3.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-4.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-1.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-2.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-3.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-4.jpg" alt="image description" />
+						</div>
+						<div class="slide">
+							<img src="images/slide-1.jpg" alt="image description" />
+						</div>
+					</div>
+				</section>
+				<section class="content-block info-wrap">
+					<div class="info-block">
+						<div class="title-box">
+							<h2>Bewertungen (4)</h2>
+							<div class="rate">
+								<input type="radio" name="radio1" id="radio5"><label for="radio5"></label>
+								<input type="radio" name="radio1" id="radio4"><label for="radio4"></label>
+								<input type="radio" name="radio1" id="radio3"><label for="radio3"></label>
+								<input type="radio" name="radio1" id="radio2"><label for="radio2"></label>
+								<input type="radio" name="radio1" id="radio1"><label for="radio1"></label>
+							</div>
+						</div>
+						<ul class="links-box">
+							<li>
+								<a href="#"><i class="icon-heart"></i>Empfehlen</a>
+							</li>
+							<li>
+								<a href="#"><i class="icon-share"></i>Teilen</a>
+							</li>
+						</ul>
+						<ul class="list-comments ">
+							<li class="comments">
+								<div class="img-box">
+									<img src="images/img-profile.svg" alt="image description" />
+								</div>
+								<time datetime="2015-03-24">24  März 2015</time>
+								<span class="title">Gast 123</span>
+								<ul class="rate-checked">
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<p>Super Tankstelle, alles top, gutes Preis-Leistungs-Verhältnis!</p>
+							</li>
+							<li class="comments">
+								<div class="img-box">
+									<img src="images/img-profile.svg" alt="image description" />
+								</div>
+								<time datetime="2015-03-18">18  März 2015</time>
+								<span class="title">AnastasiaM</span>
+								<ul class="rate-checked">
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<p>Danke, alles bestens, immer wieder gerne!</p>
+							</li>
+							<li class="comments">
+								<div class="img-box">
+									<img src="images/img-profile.svg" alt="image description" />
+								</div>
+								<time datetime="2015-03-24">19 Feb 2015</time>
+								<span class="title">Gast 123</span>
+								<ul class="rate-checked">
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<p>Super Tankstelle, alles top, gutes Preis-Leistungs-Verhältnis!</p>
+							</li>
+							<li class="comments">
+								<div class="img-box">
+									<img src="images/img-profile.svg" alt="image description" />
+								</div>
+								<time datetime="2015-03-18">19 Feb 2015</time>
+								<span class="title">AnastasiaM</span>
+								<ul class="rate-checked">
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li class="checked"></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<p>Danke, alles bestens, immer wieder gerne!</p>
+							</li>
+						</ul>
+						<div class="add-comments">
+							<img src="images/img-profile-orange.svg" height="31" width="32" alt="image description" />
+							<form action="#">
+								<fieldset>
+									<input type="text" placeholder="Eine Bewertung abgeben…">
+									<button class="add-photo"><i class="icon-icon-kamera"></i></button>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<div class="info-list">
+						<button class="btn"><i class="icon-cloud-upload"></i>Tankstellen-Fotos hochladen</button>
+						<section class="item location">
+							<h2>Tankstellen in der Nähe</h2>
+							<ul class="location-list jcf-scrollable">
+								<li class="location-item">
+									<img src="images/img-7.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tankstelle Mustermann</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											<span>Musterstraße 64 a</span>
+											<span>8010 Graz</span>
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-8.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>JET </h3>
+										<span class="mark-red">belegt</span>
+										<address>
+											<span>Musterstraße 64 a</span>
+											<span>8010 Graz</span>
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-7.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tank Roth</h3>
+										<span class="mark-grey">keine Info</span>
+										<address>
+											<span>Musterstraße 64 a</span>
+											<span>8010 Graz</span>
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-8.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Shell</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											<span>Musterstraße 64 a</span>
+											<span>8010 Graz</span>
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-7.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tankstelle Mustermann</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											<span>Musterstraße 64 a</span>
+											<span>8010 Graz</span>
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+								<li class="location-item">
+									<img src="images/img-8.jpg" alt="image description" />
+									<div class="text-box">
+										<h3>Tankstelle Mustermann</h3>
+										<span class="mark-green">frei</span>
+										<address>
+											<span>Musterstraße 64 a</span>
+											<span>8010 Graz</span>
+										</address>
+										<ul class="rate-checked">
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li class="checked"></li>
+											<li></li>
+											<li></li>
+										</ul>
+										<a href="#" class="link">Details anzeigen</a>
+									</div>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</section>
+				<section class="content-block post-list">
+					<h1>Weitere News</h1>
+					<div class="list-holder">
+						<div class="list">
+							<article class="item">
+								<img src="images/img-4.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-17">17.05.2015</time>
+									<h3>
+										<a href="#">Elektroautos: Warum die Elektromobilität nicht in Fahr</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-5.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-13">13.05.2015</time>
+									<h3>
+										<a href="#">Öko-Strom: Lorem ipsum dolar sit amet</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-6.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-12">12.05.2015</time>
+									<h3>
+										<a href="#">Lorem Ipsum: lorem ipsum dolar sit amet. Lorem ipsum</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+								</div>
+							</article>
+						</div>
+						<div class="list">
+							<article class="item">
+								<img src="images/img-4.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-17">17.05.2015</time>
+									<h3>
+										<a href="#">Elektroautos: Warum die Elektromobilität nicht in Fahr</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-5.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-13">13.05.2015</time>
+									<h3>
+										<a href="#">Öko-Strom: Lorem ipsum dolar sit amet</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+								</div>
+							</article>
+							<article class="item">
+								<img src="images/img-6.jpg" alt="image description" />
+								<div class="text-box">
+									<time datetime="2015-05-12">12.05.2015</time>
+									<h3>
+										<a href="#">Lorem Ipsum: lorem ipsum dolar sit amet. Lorem ipsum</a>
+									</h3>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer id="footer">
+				<nav class="footer-menu">
+					<ul>
+						<li>
+							<a href="#">Kontakt</a>
+						</li>
+						<li>
+							<a href="#">Impressum</a>
+						</li>
+						<li>
+							<a href="#">Info</a>
+						</li>
+						<li>
+							<a href="#">Datenschutzerklärung</a>
+						</li>
+						<li>
+							<a href="#">AGB</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#header" class="link"><i class="icon-play"></i>Nach Oben </a>
+			</footer>
+		</div>
+	</div>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/jquery.main.js"></script>
+</body>
+</html>

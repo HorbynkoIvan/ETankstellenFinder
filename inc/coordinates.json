@@ -1,0 +1,89 @@
+[
+	{
+		"address" : [47.073965,15.444097],
+		"info": {
+			"markerStyle": "images/img-mark-green.png",
+			"title": "Tankstelle Mustermann",
+			"status": "frei",
+			"address": "Musterstraße 64 a <br> 8010 Graz",
+			"phone": "+43 (0) 316 / 12425",
+			"details": "#",
+			"routePlanen": "#",
+			"images": [
+				"images/img-7.jpg",
+				"images/img-8.jpg",
+				"images/img-7.jpg",
+				"images/img-8.jpg"
+			],
+			"description1": "<div class='box'> <span class='mark'>AC (Wechselstrom)</span> <span>CEE 3polig</span> <span>CEE 5polig</span> <span>Yazaki Typ 1</span> </div>",
+			"description2": "<span class='mark'>DC (Gleichstrom)</span> <span class='mark'>XLR Stecker</span>",
+			"rating": 3,
+			"reviews": {
+				"value": 257,
+				"href": "#"
+			},
+			"comments": {
+				"value": 51,
+				"href": "#"
+			}
+		}
+	},
+	{
+		"address" : [47.0772496,15.4514143],
+		"info": {
+			"markerStyle": "images/img-mark-orange.png",
+			"title": "Tankstelle Mustermann",
+			"status": "frei",
+			"address": "Musterstraße 64 a <br> 8010 Graz",
+			"phone": "+43 (0) 316 / 12425",
+			"details": "#",
+			"routePlanen": "#",
+			"images": [
+				"images/img-7.jpg",
+				"images/img-8.jpg",
+				"images/img-7.jpg",
+				"images/img-8.jpg"
+			],
+			"description1": "<div class='box'> <span class='mark'>AC (Wechselstrom)</span> <span>CEE 3polig</span> <span>CEE 5polig</span> <span>Yazaki Typ 1</span> </div>",
+			"description2": "<span class='mark'>DC (Gleichstrom)</span> <span class='mark'>XLR Stecker</span>",
+			"rating": 3,
+			"reviews": {
+				"value": 257,
+				"href": "#"
+			},
+			"comments": {
+				"value": 51,
+				"href": "#"
+			}
+		}
+	},
+	{
+		"address" : [47.0766912,15.4529303],
+		"info": {
+			"markerStyle": "images/img-mark-red.png",
+			"title": "Tankstelle Mustermann",
+			"status": "frei",
+			"address": "Musterstraße 64 a <br> 8010 Graz",
+			"phone": "+43 (0) 316 / 12425",
+			"details": "#",
+			"routePlanen": "#",
+			"images": [
+				"images/img-7.jpg",
+				"images/img-8.jpg",
+				"images/img-7.jpg",
+				"images/img-8.jpg"
+			],
+			"description1": "<div class='box'> <span class='mark'>AC (Wechselstrom)</span> <span>CEE 3polig</span> <span>CEE 5polig</span> <span>Yazaki Typ 1</span> </div>",
+			"description2": "<span class='mark'>DC (Gleichstrom)</span> <span class='mark'>XLR Stecker</span>",
+			"rating": 3,
+			"reviews": {
+				"value": 257,
+				"href": "#"
+			},
+			"comments": {
+				"value": 51,
+				"href": "#"
+			}
+		}
+	}
+]
